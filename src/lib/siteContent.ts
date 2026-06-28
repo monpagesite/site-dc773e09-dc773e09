@@ -65,7 +65,7 @@ export const siteContent = {
     title: '講師プロフィール',
     name: '山田 花子',
     credentials: '音楽大学ピアノ科卒業・指導歴20年以上',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80',
+    image: 'https://pub-b10352cd30db47758f1614c0d15bce2c.r2.dev/media/line_Ub54a0bdcd397d2eeaa859e6c86593ffb/2026-06/2a46c1e6-4052-40a9-97d0-634a5da345bb.jpg',
     imageAlt: '講師のプロフィール写真',
     bio: [
       '幼少期よりクラシックピアノを学び、音楽大学ピアノ科を卒業後、20年以上にわたり個人レッスンを中心とした指導を続けてきました。',
