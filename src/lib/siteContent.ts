@@ -8,6 +8,7 @@ export const siteContent = {
     logo: 'ピアノ教室',
     nav: [
       { label: 'レッスン紹介', href: '#lessons' },
+      { label: '料金', href: '#pricing' },
       { label: '講師紹介', href: '#instructor' },
       { label: '生徒の声', href: '#testimonials' },
       { label: 'お問い合わせ', href: '#contact' },
@@ -58,6 +59,63 @@ export const siteContent = {
         description: 'ブランクがある方も安心して再スタート。昔弾いていた曲を思い出しながら、新しい曲にも挑戦できます。',
         meta: '対象: 経験者・再開者',
       },
+    ],
+  },
+
+  pricing: {
+    title: '料金',
+    subtitle: '明確で分かりやすい料金体系',
+    plans: [
+      {
+        name: '月2回コース',
+        price: '¥8,000',
+        period: '/月',
+        description: '忙しい方や初めての方におすすめ',
+        features: [
+          '1回 60分のレッスン',
+          '月2回（年間24回）',
+          '教材費別途',
+          '振替レッスン対応',
+        ],
+        icon: 'Calendar',
+      },
+      {
+        name: '月3回コース',
+        price: '¥11,500',
+        period: '/月',
+        description: '定期的に上達を目指す方に最適',
+        features: [
+          '1回 60分のレッスン',
+          '月3回（年間36回）',
+          '教材費別途',
+          '振替レッスン対応',
+          '発表会参加可能',
+        ],
+        featured: true,
+        badge: '人気',
+        icon: 'Star',
+      },
+      {
+        name: '月4回コース',
+        price: '¥15,000',
+        period: '/月',
+        description: '本格的に学びたい方向け',
+        features: [
+          '1回 60分のレッスン',
+          '月4回（年間48回）',
+          '教材費別途',
+          '振替レッスン対応',
+          '発表会参加可能',
+          '追加練習時間相談可',
+        ],
+        icon: 'TrendingUp',
+      },
+    ],
+    notes: [
+      '※ 入会金: ¥5,000（初回のみ）',
+      '※ 体験レッスンは初回無料です',
+      '※ レッスン日時は講師と相談の上、柔軟に対応いたします',
+      '※ 教材費は別途実費となります（¥1,500〜¥3,000程度）',
     ],
   },
 
@@ -167,6 +225,7 @@ export const siteContent = {
         title: '教室について',
         links: [
           { label: '講師紹介', href: '#instructor' },
+          { label: '料金', href: '#pricing' },
           { label: '生徒の声', href: '#testimonials' },
           { label: 'アクセス', href: '#contact' },
         ],

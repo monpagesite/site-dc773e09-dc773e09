@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Header } from './components/Header';
 import { HeroSection } from './components/HeroSection';
 import { LessonsSection } from './components/LessonsSection';
+import { PricingSection } from './components/PricingSection';
 import { InstructorSection } from './components/InstructorSection';
 import { TestimonialsSection } from './components/TestimonialsSection';
 import { ContactSection } from './components/ContactSection';
@@ -36,6 +37,7 @@ function App() {
       <main>
         <HeroSection />
         <LessonsSection />
+        <PricingSection />
         <InstructorSection />
         <TestimonialsSection />
         <ContactSection />
